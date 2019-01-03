@@ -23,8 +23,12 @@ module.exports = {
         use: [
           {
             loader: 'style-loader',
-            loader: 'sass-loader',
+          },
+          {
             loader: 'css-loader',
+          },
+          {
+            loader: 'sass-loader',
           },
         ],
       },
