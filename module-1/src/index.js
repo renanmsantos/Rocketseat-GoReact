@@ -1,21 +1,9 @@
 import React, { Component, Fragment } from "react";
-import PropTypes from "prop-types";
 import { render } from "react-dom";
 
-class Button extends Component {
-  static defaultProps = {
-    children: "Salvar"
-  };
+import Button from "./Button";
 
-  static propTypes = {
-    onClick: PropTypes.func.isRequired,
-    children: PropTypes.string
-  };
-
-  render() {
-    return <button onClick={this.props.onClick}>{this.props.children}</button>;
-  }
-}
+import "./style.scss";
 
 class App extends Component {
   state = {
@@ -33,7 +21,7 @@ class App extends Component {
       <Fragment>
         <h1>Hello Rocket!</h1>
         <h2>{this.state.counter}</h2>
-        <Button onClick={this.handleClick}>Enviar</Button>
+        <Button onClick={this.handleClick}>Somar</Button>
       </Fragment>
     );
   }
