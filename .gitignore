@@ -62,5 +62,6 @@ typings/
 
 # VSCODE workspace
 workspace.code-workspace
-module-1/tmp
-module-1/node_modules
+module1/tmp
+module1/node_modules
+module2/node_modules
