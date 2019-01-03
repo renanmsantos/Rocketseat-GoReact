@@ -25,6 +25,17 @@ module.exports = {
             loader: 'style-loader',
           },
           {
+            use: [
+              {
+                loader: 'style-loader',
+              },
+              {
+                loader: 'css-loader',
+              },
+              {
+                loader: 'sass-loader',
+              },
+            ],
             loader: 'css-loader',
           },
           {
