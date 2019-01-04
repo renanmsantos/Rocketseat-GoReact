@@ -65,3 +65,4 @@ workspace.code-workspace
 module1/tmp
 module1/node_modules
 module2/node_modules
+module2-challenge/node_modules
