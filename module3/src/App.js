@@ -1,9 +1,10 @@
-import React from "react";
-import { Provider } from "react-redux";
+import React from 'react';
+import { Provider } from 'react-redux';
 
-import store from "./store";
+import './config/reactotron';
+import store from './store';
 
-import TodoList from "./TodoList";
+import TodoList from './TodoList';
 
 const App = () => (
   <Provider store={store}>
